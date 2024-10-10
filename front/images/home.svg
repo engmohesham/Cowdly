@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.045" height="27.045" viewBox="0 0 27.045 27.045">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path543" d="M0-682.665H27.045v27.045H0Z" transform="translate(0 682.665)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="g537" transform="translate(0 682.665)">
+    <g id="g539" transform="translate(0 -682.665)">
+      <g id="g541" clip-path="url(#clip-path)">
+        <g id="g547" transform="translate(1.056 1.056)">
+          <path id="path549" d="M-554.46-158.783a5.286,5.286,0,0,1,2.06,4.211v8.888a5.282,5.282,0,0,1-5.282,5.282H-572.05a5.282,5.282,0,0,1-5.282-5.282v-8.888a5.282,5.282,0,0,1,2.079-4.2l7.184-5.479a5.282,5.282,0,0,1,6.407,0l3.98,3.033V-164.7" transform="translate(577.332 165.333)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+        <g id="g551" transform="translate(10.089 12.202)">
+          <path id="path553" d="M-32.013,0a1.321,1.321,0,0,0-1.321,1.321,1.321,1.321,0,0,0,1.321,1.321,1.321,1.321,0,0,0,1.321-1.321A1.321,1.321,0,0,0-32.013,0" transform="translate(33.333)" fill="#fff"/>
+        </g>
+        <g id="g555" transform="translate(14.315 12.202)">
+          <path id="path557" d="M-32.013,0a1.321,1.321,0,0,0-1.321,1.321,1.321,1.321,0,0,0,1.321,1.321,1.321,1.321,0,0,0,1.321-1.321A1.321,1.321,0,0,0-32.013,0" transform="translate(33.333)" fill="#fff"/>
+        </g>
+        <g id="g559" transform="translate(10.089 16.428)">
+          <path id="path561" d="M-32.013,0a1.321,1.321,0,0,0-1.321,1.321,1.321,1.321,0,0,0,1.321,1.321,1.321,1.321,0,0,0,1.321-1.321A1.321,1.321,0,0,0-32.013,0" transform="translate(33.333)" fill="#fff"/>
+        </g>
+        <g id="g563" transform="translate(14.315 16.428)">
+          <path id="path565" d="M-32.013,0a1.321,1.321,0,0,0-1.321,1.321,1.321,1.321,0,0,0,1.321,1.321,1.321,1.321,0,0,0,1.321-1.321A1.321,1.321,0,0,0-32.013,0" transform="translate(33.333)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

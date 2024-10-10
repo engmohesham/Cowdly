@@ -1,0 +1,23 @@
+<svg id="Component_2_1" data-name="Component 2 – 1" xmlns="http://www.w3.org/2000/svg" width="13.78" height="15.678" viewBox="0 0 13.78 15.678">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: var(--mainColor);
+      }
+    </style>
+  </defs>
+  <g id="Group_40322" data-name="Group 40322">
+    <g id="Group_40321" data-name="Group 40321" transform="translate(0 0)">
+      <path id="Path_38341" data-name="Path 38341" class="cls-1" d="M17.6,17.6H7.375A1.776,1.776,0,0,1,5.6,15.829V7.921a1.745,1.745,0,0,1,.652-1.357l5.115-4.228a1.737,1.737,0,0,1,2.244,0l5.115,4.2a1.745,1.745,0,0,1,.652,1.357V15.8A1.782,1.782,0,0,1,17.6,17.6ZM12.49,2.988a.782.782,0,0,0-.47.157L6.9,7.373a.735.735,0,0,0-.261.548v7.908a.729.729,0,0,0,.731.731H17.6a.729.729,0,0,0,.731-.731V7.921a.735.735,0,0,0-.261-.548L12.96,3.145A.782.782,0,0,0,12.49,2.988Z" transform="translate(-5.6 -1.925)"/>
+    </g>
+  </g>
+  <g id="Group_40324" data-name="Group 40324" transform="translate(3.236 12.338)">
+    <g id="Group_40323" data-name="Group 40323">
+      <path id="Path_38342" data-name="Path 38342" class="cls-2" d="M24.785,50.244H18.522a.522.522,0,1,1,0-1.044h6.263a.522.522,0,1,1,0,1.044Z" transform="translate(-18 -49.2)"/>
+    </g>
+  </g>
+</svg>
