@@ -6,7 +6,8 @@
       }
 
       .cls-2 {
-        fill: var(--mainColor);
+                fill: #fff;
+
       }
     </style>
   </defs>

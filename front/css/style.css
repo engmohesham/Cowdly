@@ -131,20 +131,14 @@ ol {
   list-style: none;
   counter-reset: li;
   padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 ol li {
   position: relative;
 }
-ol li::before {
-  -ms-flex: 0 0 1rem;
-  flex: 0 0 1rem;
-  max-width: 1rem;
-  content: counter(li) " - ";
-  position: absolute;
-}
-li {
-  counter-increment: li;
-}
+
 li ol li::before {
   -ms-flex: 0 0 2.7rem;
   flex: 0 0 2.7rem;
@@ -316,7 +310,7 @@ ol li::before,
 #sidebar .links a::before,
 #sidebar .links a::after,
 .content h2 {
-  color: var(--mainColor);
+  color: #fff;
 }
 .swiper-button-prev:hover,
 .swiper-button-next:hover,
@@ -342,7 +336,7 @@ ol li::before,
 .page-head::before,
 .contact-us2::before,
 .sweep-hvr::before {
-  background: #003189;
+  background: var(--mainColor);
 }
 #contact-us .contact-info ul li:nth-of-type(3) a,
 .social__share a:hover,
@@ -1009,7 +1003,11 @@ ol li::before,
 #services .item.web,
 #hr .item.web .image {
   background: -moz-linear-gradient(-45deg, var(--mainColor) 0%, #003189 100%);
-  background: -webkit-linear-gradient(-45deg, var(--mainColor) 0%, #003189 100%);
+  background: -webkit-linear-gradient(
+    -45deg,
+    var(--mainColor) 0%,
+    #003189 100%
+  );
   background: linear-gradient(135deg, var(--mainColor) 0%, #003189 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--mainColor)',endColorstr='#003189',GradientType=1 );
 }
@@ -2200,6 +2198,7 @@ ol li::before,
 .page-head {
   background: url(../images/breadbg.webp) no-repeat left top;
   min-height: 342px;
+  background-color: var(--mainColor) !important;
   position: relative;
   text-align: center;
   color: #fff;
@@ -2258,6 +2257,17 @@ ol li::before,
   text-transform: capitalize;
   color: #fff;
   padding: 0;
+  
+}
+
+.breadcrumb1-item {
+  position: relative;
+} 
+
+.breadcrumb1-item::before {
+  content: "/";
+  position: absolute;
+  right: 0;
 }
 .breadcrumb-item a {
   color: #fff;
@@ -2265,17 +2275,7 @@ ol li::before,
 .breadcrumb li::before {
   position: static;
 }
-.breadcrumb-item:first-child::before {
-  content: "";
-  width: 13.78px;
-  height: 15.68px;
-  background: url(../images/homebread.svg) no-repeat center;
-  background-size: contain;
-}
-.breadcrumb-item .breadcrumb-item::before {
-  content: "|";
-  color: #fff;
-}
+
 .contact-information {
   padding: 52px 0 0;
   position: relative;
@@ -2774,7 +2774,7 @@ ol li::before,
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(23, 16, 54, .9);
+  background: rgba(23, 16, 54, 0.9);
 }
 #service-carousel .container,
 #service-carousel .carousel-inner,
