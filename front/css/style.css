@@ -2265,17 +2265,7 @@ ol li::before,
 .breadcrumb li::before {
   position: static;
 }
-.breadcrumb-item:first-child::before {
-  content: "";
-  width: 13.78px;
-  height: 15.68px;
-  background: url(../images/homebread.svg) no-repeat center;
-  background-size: contain;
-}
-.breadcrumb-item .breadcrumb-item::before {
-  content: "|";
-  color: #fff;
-}
+
 .contact-information {
   padding: 52px 0 0;
   position: relative;
