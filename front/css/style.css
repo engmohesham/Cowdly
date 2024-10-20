@@ -310,7 +310,7 @@ ol li::before,
 #sidebar .links a::before,
 #sidebar .links a::after,
 .content h2 {
-  color: #fff;
+  color: var(--mainColor);
 }
 .swiper-button-prev:hover,
 .swiper-button-next:hover,
@@ -660,13 +660,14 @@ ol li::before,
 }
 #site-header .navbar .nav-link::before {
   content: "";
-  width: 0;
+  width: 0%;
   height: 4px;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
+  background-color: var(--mainColor);
 }
 #site-header .navbar .nav-item:hover .nav-link::before,
 #site-header .navbar .nav-item .nav-link.active::before {
@@ -1725,7 +1726,7 @@ ol li::before,
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 49, 137, 0.8);
+  background: var(--mainColor)
 }
 .footer-top::after {
   content: "";
@@ -1744,7 +1745,7 @@ ol li::before,
 }
 .footer-top .title {
   font-size: 21px;
-  color: #77ceff;
+  color: #fff;
   margin: 0 0 20px;
 }
 .footer-top .footer-about p {
@@ -2268,6 +2269,7 @@ ol li::before,
   content: "/";
   position: absolute;
   right: 0;
+  color: #fff;
 }
 .breadcrumb-item a {
   color: #fff;
