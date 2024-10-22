@@ -310,7 +310,7 @@ ol li::before,
 #sidebar .links a::before,
 #sidebar .links a::after,
 .content h2 {
-  color: var(--mainColor);
+  color: #fff;
 }
 .swiper-button-prev:hover,
 .swiper-button-next:hover,
@@ -324,20 +324,26 @@ ol li::before,
 #hr-details .go-back:hover {
   border-color: var(--mainColor);
 }
-#site-header .navbar .nav-left .dark-mode:hover,
-#site-header .navbar .nav-left .dark-mode:focus,
-#site-header .navbar .nav-left .dark-mode.active,
-#site-header .navbar .nav-left .request-ser::before,
+
 #our-works::before,
 #contact-us .contact-info::before,
 .blog-item .image,
 .c-form .file-upload .upload,
 .scrolltop,
 .page-head::before,
-.contact-us2::before,
-.sweep-hvr::before {
+.contact-us2::before{
   background: var(--mainColor);
 }
+
+#site-header .navbar .nav-left .dark-mode:hover,
+#site-header .navbar .nav-left .dark-mode:focus,
+#site-header .navbar .nav-left .dark-mode.active,
+#site-header .navbar .nav-left .request-ser::before,
+.sweep-hvr::before {
+  background: #fff;
+  color: var(--mainColor) !important;
+}
+
 #contact-us .contact-info ul li:nth-of-type(3) a,
 .social__share a:hover,
 .work-portfolio .title .link:hover,
@@ -2268,6 +2274,23 @@ ol li::before,
   text-transform: capitalize;
   color: #fff;
   padding: 0;
+}
+.breadcrumb-item a {
+  color: #fff;
+}
+.breadcrumb li::before {
+  position: static;
+}
+.breadcrumb-item:first-child::before {
+  content: "";
+  width: 13.78px;
+  height: 15.68px;
+  background: url(../images/homebread.svg) no-repeat center;
+  background-size: contain;
+}
+.breadcrumb-item .breadcrumb-item::before {
+  content: "|";
+  color: #fff;
 }
 
 .breadcrumb1-item {
