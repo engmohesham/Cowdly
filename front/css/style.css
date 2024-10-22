@@ -632,8 +632,18 @@ ol li::before,
   align-items: center;
   padding: 0;
 }
-#site-header .navbar .navbar-brand img {
-  max-width: 100%;
+#site-header .navbar .navbar-brand img
+{
+  max-width: 6.875rem;
+  height: auto;
+}
+/* Smaller logo size on larger screens */
+@media (min-width: 1200px) {
+  #site-header .navbar .navbar-brand img {
+    width: 6.875rem;
+    /* adjust this value to your liking */
+    height: auto;
+  }
 }
 .main-logo {
   display: block;
